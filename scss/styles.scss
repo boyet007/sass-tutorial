@@ -21,7 +21,7 @@
     li{
         float:left;
         width:(100%/ 6);
-        @include mQ(600px){
+        @include mQ(600px, 100px){
             width:100%;
         }
     }
