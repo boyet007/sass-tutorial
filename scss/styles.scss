@@ -32,7 +32,7 @@
         //perintah dibawah sama dengan #main-nav a:hover
 
         &:hover{
-            background:#333;
+            background: lighten($deepBlue, 6);
         }
     }
 } //end #main-nav
@@ -69,7 +69,7 @@ section h1{
 } 
 
 #services{
-    //margin-bottom:60px;
+    margin-bottom:60px;
     li{
         float:left;
         box-sizing:border-box;
@@ -86,7 +86,7 @@ section h1{
         color:$deepBlue;
         font-weight: bold;
         &:hover{
-            color:red;
+            color: complement($deepBlue)
         }
     }
     ul{
